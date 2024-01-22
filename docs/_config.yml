@@ -22,7 +22,7 @@
 # --- Required options --- #
 ############################
 
-title: Grimoire's blog
+title: Grimoire
 
 author: Q.Yao
 
@@ -95,6 +95,20 @@ footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
+####################
+# --- Comments --- #
+####################
+
+# To use Utterances comments: (0) uncomment the following section, (1) fill in
+# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
+# (3) Install the Utterances app in your repository https://github.com/apps/utterances
+# See more details about the parameters below at https://utteranc.es/
+utterances:
+ repository: grimoire/grimoire.github.io # eg. "daattali/beautiful-jekyll"
+ issue-term: title   # Mapping between blog posts and GitHub issues
+ theme: github-light # Utterances theme
+ label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
 ################
 # --- Misc --- #
 ################
@@ -131,6 +145,19 @@ github: [metadata]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+####################
+# --- polyglot --- #
+####################
+
+languages: ["en", "zh-CN"]
+default_lang: "zh-CN"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
+
+lang_name:
+  en: English
+  zh-CN: 简体中文
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #

@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Grimoire's blog
+title: Grimoire
 ---
