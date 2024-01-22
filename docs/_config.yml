@@ -150,14 +150,14 @@ github: [metadata]
 # --- polyglot --- #
 ####################
 
-languages: ["en", "zh-CN"]
-default_lang: "zh-CN"
-exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: true
+# languages: ["en", "zh-CN"]
+# default_lang: "zh-CN"
+# exclude_from_localization: ["javascript", "images", "css", "public"]
+# parallel_localization: true
 
-lang_name:
-  en: English
-  zh-CN: 简体中文
+# lang_name:
+#   en: English
+#   zh-CN: 简体中文
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
@@ -207,3 +207,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  # - jekyll-polyglot
