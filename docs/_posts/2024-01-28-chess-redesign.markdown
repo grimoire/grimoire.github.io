@@ -126,3 +126,11 @@ lang: zh-CN
 ## 结语
 
 今天分享的就这些了，也不知道合不合各位观众老爷的胃口。这里先给大家拜个早年吧，祝大家新年快乐，龙年吉祥～
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
