@@ -13,5 +13,6 @@ lang: zh-CN
 
 主要参与维护的项目：
 
-- [mmdeploy](https://github.com/open-mmlab/mmdeploy)：OpenMMLab 引擎对接与模型部署库。
-- [lmdeploy](https://github.com/InternLM/lmdeploy)：高性能 LLM 推理引擎。
+<a href="https://github.com/open-mmlab/mmdeploy"><img src="https://github.com/open-mmlab/mmdeploy/blob/main/resources/mmdeploy-logo.png?raw=true" alt="MMDeploy" style="width:256px;"/></a>：OpenMMLab 引擎对接与模型部署库。
+
+<a href="https://github.com/InternLM/lmdeploy"><img src="https://github.com/InternLM/lmdeploy/blob/main/docs/en/_static/image/lmdeploy-logo.svg?raw=true" alt="MMDeploy" style="width:256px;"/></a>：高性能 LLM 推理引擎。
