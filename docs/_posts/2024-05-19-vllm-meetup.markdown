@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "【FML】好消息：我上了 vllm meetup..."
+title:  "【FML】好消息：我上了 大佬 repo 的 meetup..."
 date:   2024-05-19 17:00:000 +0800
 categories: FML MoE
 lang: zh-CN
 ---
 
-好消息：我上了 vllm meetup...
+好消息：我上了 vLLM meetup...
 
 ## 坏消息：是公开处刑
 
