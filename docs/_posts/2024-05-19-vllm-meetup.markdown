@@ -20,7 +20,7 @@ lang: zh-CN
 
 😡这么烂的 TP 还有 MoE 的支持谁做的，一定要出重拳！让我看看提交记录...
 
-**<span style="color:red">好像是我<span>**
+<span style="color:red"><b>好像是我</b></span>
 <img src="https://github.com/grimoire/grimoire.github.io/blob/vllm-failed-resources/resources/crown.png?raw=true" alt="crown" style="width:128px;"/>
 
 咳咳，还是先看看问题出在哪里吧
