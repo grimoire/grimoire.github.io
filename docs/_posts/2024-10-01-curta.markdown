@@ -1,78 +1,75 @@
 ---
 layout: post
 title:  "【历史】“计算手雷”——Curta手持机械计算器"
-date:   2024-10-02 12:00:000 +0800
+date:   2024-10-01 21:30:000 +0800
 categories: 历史
 lang: zh-CN
 ---
 
 手机或者说掌上智能终端已经成为每个现代人生活中不可或缺的一部分，说是义体飞升的一个外置器官也不为过。那么在电子计算机诞生前的20世纪初，是否存在那么一种巴掌大小，能完成复杂运算的工具呢？科塔（Curta）计算器就是基于这个理念诞生的。
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="curta" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/curta.jpg?raw=true" alt="curta" style="width:256px;"/>
 
 ## Curta 的诞生
 
-[科塔 赫兹斯塔克](https://en.wikipedia.org/wiki/Curt_Herzstark)（Curt Herzstark）1902年诞生于奥地利，父亲是一名犹太商人，售卖计算设备以及其他办公用品。母亲是一名天主教徒，在她的影响赫兹斯塔克也信仰了路德宗。19世纪30年代左右，他成为父亲公司中的一名技术主管，游历于奥地利、匈牙利和捷克斯洛伐克的银行或工厂，销售计算设备。
+[科塔 赫兹斯塔克](https://en.wikipedia.org/wiki/Curt_Herzstark)（Curt Herzstark）1902年诞生于奥地利，父亲是一名犹太商人，售卖计算设备以及其他办公用品。母亲是一名天主教徒，在她的影响下赫兹斯塔克也信仰了路德宗。19世纪30年代左右，他成为父亲公司中的一名技术主管，游历于奥地利、匈牙利和捷克斯洛伐克的银行或工厂，销售计算设备。
 
 当年已经存在一些办公用的计算器，不过这些设备通常体积很大，计算能力也比较差，操作起来也非常麻烦。可能类似下面这种
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="curt-at-10" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/Curt-1910-6a.jpg?raw=true" alt="curt-at-10" style="width:256px;"/>
 
-在销售公司设备的过程中，赫兹斯塔克时常会被问起“嗯，你的机器不错，不过有没有更小一点的？”，那些工头、建筑师、海关客户有随身携带计算设备的需求，这让他开始构思设计一款集程度更高的手持计算器，能够一只手握持一只手操作。
+在销售公司设备的过程中，赫兹斯塔克时常会被问起 “嗯，你的机器不错，不过有没有更小一点的？”，那些工头、建筑师、海关客户有随身携带计算设备的需求，这让他开始构思设计一款集程度更高的手持计算器，能够一只手握持一只手操作。
 
-赫兹斯塔克设计将数字输入通过侧面的滑块进行输入，经过齿轮传动，更新上侧的数字转轮。通过切换不同的齿轮组，还可以切换运算模式。在1937年，赫兹斯塔克初步完成了计算器的构思，同年的德意志魏玛近郊，恶名昭著的[布痕瓦尔德集中营](https://en.wikipedia.org/wiki/Buchenwald_concentration_camp)也迎来了第一批囚徒...
+赫兹斯塔克设计将数字通过侧面的滑块进行输入，经过齿轮传动，更新上侧的数字转轮，通过切换不同的齿轮组，还可以切换运算模式。在1937年，赫兹斯塔克初步完成了计算器的构思，同年的德意志魏玛近郊，恶名昭著的[布痕瓦尔德集中营](https://en.wikipedia.org/wiki/Buchenwald_concentration_camp)也迎来了第一批囚徒...当时的他应该没有把自己和这个地方联系到一起。
 
-时间来到了1938年，对于一个奥地利人来说，这不算是一个[好年份](https://en.wikipedia.org/wiki/Anschluss)，尤其是对于一个有着犹太血统的人而言。头几年还好，开始“但泽或战争”的德意志第三帝国也有办公和计算的需求，科塔家的公司被征用给纳粹德国生成精密仪器。直到1943年，公司的两个员工被发现偷听英国广播被逮捕，赫兹斯塔克也因为替他们作证被一起带走，罪名是“支持犹太人以及和雅利安女性建立不正当关系”。
+时间来到了1938年，对于一个奥地利人来说，这不算是一个[好年份](https://en.wikipedia.org/wiki/Anschluss)，尤其是对于一个有着犹太血统的人而言。幸运的是，开始 “但泽或战争” 的德意志第三帝国也有办公和计算的需求，科塔家的公司被征用给纳粹德国生成精密仪器。直到1943年，公司的两个员工被发现偷听英国广播被逮捕，赫兹斯塔克也因为替他们作证被一起带走，罪名是“支持犹太人以及和雅利安女性建立不正当关系”。
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="Buchenwald_concentration_camp" style="width:256px;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/MK38040_Buchenwald_Lagertor.jpg/2560px-MK38040_Buchenwald_Lagertor.jpg" alt="Buchenwald_concentration_camp" style="width:256px;"/>
 
-赫兹斯塔克被带到了布痕瓦尔德集中营，在那里从事体力劳动，在他给V2火箭弹拧螺丝的一天，纳粹工作生成计划部的人找到了他“我知道你搞了个新东西，一个微型计算器。我给你个机会，你把那个玩意儿给造出来，等战争结束了把它献给元首，我就可以把你变成个雅利安人。” 赫兹斯塔克找到了一线生机，开始在集中营中继续开发他的计算器。当然1943年对纳粹德国而言可不是一个[好年份](https://zh.wikipedia.org/zh-cn/%E5%BA%93%E5%B0%94%E6%96%AF%E5%85%8B%E4%BC%9A%E6%88%98)...
+赫兹斯塔克被带到了布痕瓦尔德集中营，在那里从事体力劳动。在他忙着给V2火箭弹拧螺丝时，纳粹工作生成计划部的人找到了他 “<span style="color:red">我知道你搞了个新东西，一个微型计算器。我给你个机会，把那个玩意儿给造出来，等战争结束了把它献给元首，我就可以把你变成个雅利安人。</span>” 赫兹斯塔克找到了一线生机，开始在集中营里继续开发他的计算器。我不知道纳粹当时是不是有《钢铁苍穹》里那种漂白技术，但是在[1943年](https://zh.wikipedia.org/zh-cn/%E5%BA%93%E5%B0%94%E6%96%AF%E5%85%8B%E4%BC%9A%E6%88%98)期待纳粹能打赢多少有点乐观过头了...
 
-1945年4月，美国89步兵师解放了集中营，赫兹斯塔克带着设计图纸找到了魏玛附近的工匠，开始开发计算器的原型，他的设计受到了列支敦士登的[弗兰滋.约瑟夫](https://en.wikipedia.org/wiki/Franz_Joseph_II,_Prince_of_Liechtenstein) 的支持，开始在列支敦士登生产并销售 Curta计算器。
+1945年4月，美国89步兵师解放了集中营，赫兹斯塔克带着设计图纸找到了魏玛附近的工匠，开始开发计算器的原型，他的设计受到了列支敦士登的[弗兰滋.约瑟夫二世](https://en.wikipedia.org/wiki/Franz_Joseph_II,_Prince_of_Liechtenstein) 的支持，开始在列支敦士登生产并销售科塔计算器。
 
 ## 使用
 
-科塔最好的手持机械计算器，被广泛使用于各种领域，直到20世纪中期电子计算器诞生后才逐渐式微。不过由于早起电子计算器比较紧密，不适合剧烈震动或灰尘飞扬的环境，因此在拉力赛等场合还发光发热了一段时间。
+科塔是最好的手持机械计算器，被广泛使用于各种领域，直到20世纪中期电子计算器诞生后才逐渐式微。不过由于早起电子计算器比较紧密，不适合剧烈震动或灰尘飞扬的环境，因此在拉力赛等场合还发光发热了一段时间。
 
 科塔发售了两款型号，二型比一型拥有更高的计算精度（位数），一型和二型售价分别为 125$ 和 165$，当然现在已经停产了，由于紧密的设计深受 geek 和收藏家喜爱，所以也被炒到高价
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="buy_curta" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/buy_curta.jpeg?raw=true" alt="buy_curta" style="width:512px;"/>
 
 如果不那么执着于介质的话，那么可以试试这个[模拟器](http://www.satadorus.eu/x_ite/yacs_2_0/yacs_2_0.html)
 
 拨动侧面的滑块来设置要计算的数字，然后转动上面的摇杆，就可以进行加法运算，比如下面就是 `17+17`
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="setnumber" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/set_number.jpeg?raw=true" alt="setnumber" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/get_output.jpeg?raw=true" alt="getoutput" style="width:256px;"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="getoutput" style="width:256px;"/>
-
-左图设置数字`17`，右图转两圈摇杆（白色区域数字）就可以得到结果34（黑色区域）
+左图设置数字`17`，右图转两圈摇杆（白色区域数字）就可以得到结果 `17+17=34`（黑色区域）
 
 如果想做减法，可以将摇杆向上提起，这样计算就变成了减法，比如 `34-7`
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="setnumber2" style="width:256px;"/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="getoutput2" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/set_number2.jpeg?raw=true" alt="setnumber2" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/get_output2.jpeg?raw=true" alt="getoutput2" style="width:256px;"/>
 
 左图设置数组`7`，右图得到结果 `34-7=27`
 
-更复杂的运算可以由读者自己研究，我就不在这里展开了。
+更复杂的运算由读者自己研究，我就不在这里展开了。
 
 ## 原理
 
-有非常多的人对科塔的原理非常好奇，实际上在最初销售的科塔售后中，不少是购买者拆开来研究然后装不回去的...在意大利的穆拉博物馆保存着一份设计稿，网上也有大量的[公开内容](http://curtawiki.wikidot.com/parts)，大家不必再为不了解原理发愁了。
+有非常多的人对科塔的原理非常好奇，实际上在最初销售的科塔售后请求中，不少是购买者拆开来研究然后装不回去的... 现在在意大利的穆拉博物馆保存着一份设计稿，网上也有大量的[公开内容](http://curtawiki.wikidot.com/parts)，大家不必再为不了解原理发愁了。
 
 科塔的原理比较像机械表，数字滑块可以控制传动齿轮（下图绿色和蓝色）的高度，不同高度的传动齿轮会连接到不同的齿数的灰色大齿轮上，使得各个位数上传动轴转数不一样，带动上面输出齿轮产生不同的结果
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="gear1" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/gear1.jpeg?raw=true" alt="gear1" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-curta-resources/resources/gear2.jpeg?raw=true" alt="gear2" style="width:256px;"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/SRAM_Cell_%286_Transistors%29.svg" alt="gear2" style="width:256px;"/>
-
-有爱好者根据这些原理信息制作了科塔的[CAD](https://cad.onshape.com/documents/56ab5570e4b0d9659037a1cf/w/9f078541afd347bb397e344f/e/2b386be0c67cfb2a94581ba7)，有条件的同学可以尝试做一个3d打印版本
+有爱好者根据这些信息制作了科塔的[CAD](https://cad.onshape.com/documents/56ab5570e4b0d9659037a1cf/w/9f078541afd347bb397e344f/e/2b386be0c67cfb2a94581ba7)，有条件的同学可以尝试做一个3d打印版本。
 
 ## 结语
 
-比起大模型，我还是更喜欢这种设计精巧的小物件，希望大家也能喜欢
+比起大模型，我还是更喜欢这种设计精巧的小物件，希望大家也能喜欢。
 
 ## 参考
 
