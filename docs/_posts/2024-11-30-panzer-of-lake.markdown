@@ -56,14 +56,14 @@ lang: zh-CN
 
 <img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/he6.png?raw=true" alt="he6" style="width:512px;"/>
 
-*另一张展示第五装甲师横跨默兹河的地图。准确展示了从 Houx 向迪南北部进发的细节，也就是后续调研地点。图片来自 Alan Shepperd 的《法国1940——西线闪击战》*
+*另一张展示第五装甲师横跨默兹河的地图。准确展示了从霍克斯向迪南北部进发的细节，也就是后续调研地点。图片来自 Alan Shepperd 的《法国1940——西线闪击战》*
 
 另一个线索是第五装甲师是少数配备了4号D型坦克的部队，坦克上有显示战术编号的棱形板（尽管看的不是很清楚，但是第一个数字好像是3或6。第五装甲师中只有3连和6连有装备带棱形板的四号D型坦克，这线索可以帮助缩小搜索范围）棱形板的存在表示照片的拍摄不可能晚于1941年4月，根据上面提到的书中的信息，拍摄时间基本就被锁定在1940年5月13日。
 
-{% include note.html content="根据[这里](https://www.flamesofwar.com/default.aspx?tabid=112&kb_cat_id=33)的信息，满足“棱形板”和4号坦克的只有第五装甲师。不过我并没有看清楚湖中坦克的棱形板在哪里...
+{% include note.html content="根据[这里](https://www.flamesofwar.com/default.aspx?tabid=112&kb_cat_id=33)的信息，满足“棱形板”和“四号坦克”的只有第五装甲师。不过我并没有看清楚湖中坦克的棱形板在哪里...
 " %}
 
-{% include note.html content="1941年4月应该是指入侵巴尔干，根据[这里](http://www.panzer-ozak.it/Panzer_unit_insignia_part1.pdf)的资料，这时的第五装甲师好像已经不使用棱形板了。
+{% include note.html content="1941年4月应该是指入侵巴尔干的战役，根据[这里](http://www.panzer-ozak.it/Panzer_unit_insignia_part1.pdf)的资料，这时的第五装甲师好像已经不使用棱形板了。
 " %}
 
 “*入侵开始于1940年5月10日。到第三天，隆美尔与他师的前锋部队，连同赫尔曼.维尔纳上校指挥的第五装甲师的一个分队，已经到达了默兹河，在那里他们发现桥梁已经被摧毁（古德里安和莱茵哈特也在同一天到达）。隆美尔在前线忙于指挥渡河作战，但是由于对岸法军的火力压制，最初的尝试没有成功。隆美尔调来了坦克和防空炮提供反击，并点燃了附近的房屋以制造烟幕。他派步兵乘坐橡皮艇渡河，征用第五装甲师的架桥设备，亲自拿起轻机枪打退了由坦克支援的法军反击，并亲自涉水，鼓励工兵并搭建浮桥*”—— Daniel Allen Butler 《艾尔文隆美尔的生与死》
