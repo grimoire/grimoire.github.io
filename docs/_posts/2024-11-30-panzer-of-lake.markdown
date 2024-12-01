@@ -61,6 +61,8 @@ lang: zh-CN
 另一个线索是第五装甲师是少数配备了4号D型坦克的部队，坦克上有显示战术编号的棱形板（尽管看的不是很清楚，但是第一个数字好像是3或6。第五装甲师中只有3连和6连有装备带棱形板的四号D型坦克，这线索可以帮助缩小搜索范围）棱形板的存在表示照片的拍摄不可能晚于1941年4月，根据上面提到的书中的信息，拍摄时间基本就被锁定在1940年5月13日。
 
 {% include note.html content="根据[这里](https://www.flamesofwar.com/default.aspx?tabid=112&kb_cat_id=33)的信息，满足“棱形板”和“四号坦克”的只有第五装甲师。不过我并没有看清楚湖中坦克的棱形板在哪里...
+
+根据后面的内容描述，似乎指的是一起发布的另一张照片，照片中的坦克被认为是同一辆。
 " %}
 
 {% include note.html content="1941年4月应该是指入侵巴尔干的战役，根据[这里](http://www.panzer-ozak.it/Panzer_unit_insignia_part1.pdf)的资料，这时的第五装甲师好像已经不使用棱形板了。
@@ -194,9 +196,78 @@ lang: zh-CN
 
 ### 位置
 
+照片所在位置为比利时纳慕尔霍克斯村附近的默兹河。（坐标：50.29092467073664, 4.893099128823844）
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l1.png?raw=true" alt="l1" style="width:512px;"/>
+
+*谷歌地图中的位置图像*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l2.png?raw=true" alt="l2" style="width:512px;"/>
+
+*原图与2020年的谷歌街景*
+
+图中有许多匹配的元素，包括整体地形地貌，背景中的两座山以及树，河流的流向，相似的河宽以及左弯曲交汇处。由于建设了码头，原来的河岸线已经看不见了。
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l3.png?raw=true" alt="l3" style="width:512px;"/>
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l4.png?raw=true" alt="l4" style="width:512px;"/>
+
+*战时照片与战后对比*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l5.png?raw=true" alt="l5" style="width:512px;"/>
+
+*将照片对比，能看出好多相似之处*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/l6.png?raw=true" alt="l6" style="width:512px;"/>
+
+这张照片应该是在 1941 年拍摄的，距离沉没时间应该已经过去半年。
+
+之后就没什么其他线索了。
+
 ### 调查团队
 
+**主要作者**
+
+- Miller786#9839 - Finding the location and researching 
+- Thallez_#6063 - Writing the document and researching
+- DynCoder#1896 - Writing, researching, translation and photo analysis
+- Rohnski#0485 - Initial evidence of the 5th Panzer Division crossing at Houx and research on the soldier’s uniform.
+
+**贡献者**
+
+  参与湖中坦克相关的调查工作:
+- Lord Quintus - Providing sources and categorizing the Panzer Companies
+- Clausewitz#0231 - Providing the map from the OKH as well as field reports for the entire 5th Panzer Division (Lead archivist and God-Emperor of Microfilm)
+- mpikoul#3174 - Minor edits to the report and marshalling of the translation team
+- Rasputin#4976 - Providing evidence leading to the definitive proof
+- Kaze Shadow#7009 - Information on Lt. Zobel and contacting local museums for information
+- lee#4381 - Information on Lt. Wispelaere
+
+**翻译团队**
+
+  参与德文资料的翻译:
+- mpikoul#3174
+- Snowman#9757
+- leo⚡#9865
+- {BR-TM} laughing coffin#3235
+- logy003#2134
+- reptilianmaster 1120
+- Levitheman#1297
+- Philipplays#9104
+- Dito.exe#3867
+- Dr_Didi#5416
+- Yoda_08#4342
+- Kaze Shadow#7009
+- DynCoder#1896
+- Obnoxiouslord#7840
+
+同样感谢所有为此提供贡献的人，没有他们的贡献我们不可能完成这些
+
+{% include note.html content="引用的部分我就不搬运过来了，感兴趣的朋友可以自行阅读原文。" %}
+
 ## 结尾
+
+除了最广泛的“默兹河起源说”以外，还有毛子那边的提出的“[罗马尼亚起源说](https://hitriy-plan.livejournal.com/441311.html)”。目前大家都没有决定性的证据，youtuber ConeOfArc 提出 100$ 悬赏湖中坦克的更可靠证据。
 
 写到中途就开始变得没耐心，把部分翻译工作交给 AI 了。我们真是活在一个了不起的时代😂
 
