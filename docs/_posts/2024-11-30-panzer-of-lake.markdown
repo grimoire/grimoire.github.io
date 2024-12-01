@@ -141,13 +141,64 @@ lang: zh-CN
 
 ### 士兵
 
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s1.png?raw=true" alt="s1" style="width:512px;"/>
+
+证据表明，照片中的士兵是一名工兵/坦克回收组成员，手持Kar98k步枪，身穿EM/NCO的训练与工作制服，这种制服更常见的称呼是“Drillich”。
+
+默兹河上的浮桥可以贝用来证实他的身份，这些浮桥由第5装甲师使用。他的制服也证明了这一点，这种制服在工作中使用，以防止损坏他们的标准羊毛制服。步枪是他的标准步兵装备之一。
+
+“*这支15人的工兵小队代表了营的基本战斗单位。他们不仅装备了标准步兵武器，还使用了爆破器材、火焰喷射器、三人及七人充气突击艇、铁丝网、反坦克和反人员地雷，以及烟雾弹和手榴弹。*”——埃里希·施尼少校 《德国工兵：持续地面战斗中战斗工程师使用的案例研究》
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s2.png?raw=true" alt="s2" style="width:512px;"/>
+
+*照片中显示穿着 Drillich 的工兵，手持 kar98k，说明该枪是工兵的标准装备之一*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s3.png?raw=true" alt="s3" style="width:512px;"/>
+
+*文字描述显示冲锋队接收到了步枪（推测应该是 kar98K）*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s4.png?raw=true" alt="s4" style="width:512px;"/>
+
+*一群穿着 Drillich 的战斗工程师正在准备浮桥。其中一个士兵带着标准步兵装备中的头盔和刺刀*
+
+“*5月13日中午，工兵们完成了一艘八吨重的渡船，并将二十门反坦克炮运送到西岸，然而为了保持其师前进的节奏，他需要装甲和摩托化部队渡河。隆美尔亲自下令将渡船改装成更重的十六吨型号，以方便轻型坦克和装甲车的渡河。与此同时，工兵们开始建造一座能够承载师内重型坦克和摩托化部队的桥梁。*”
+-埃里希·施尼少校在《德国工兵：持续地面战斗中战斗工程师使用的案例研究》
+
+这证明德意志先锋队有参与5月13日的渡船搭建任务。
+
+唯一剩下的问题是图中没有枪的清洁杆，没什么具体证据，不过可能单纯是弄丢了。
+
+<img src="https://www.1944militaria.com/v/vspfiles/photos/RPk98ROD-5.jpg" alt="rod" style="width:512px;"/>
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s5.png?raw=true" alt="s5" style="width:512px;"/>
+
+*早起版本的 Drillich*
+
+“*上衣（Drillichrock）和裤子（Drillichhose）易于清洗，作为工作服发放，旨在保持士兵的羊毛制服的良好状态。它们由未漂白的牛仔布或斜纹布制成，旨在用于工作任务、武器清洁、训练练习等活动。*”
+
+“*为了完成整体外观，还佩戴了M34侧帽和装备腰带。裤子还内置了两个口袋。*”
+
+上面内容说明工装的存在是为了保护羊毛制服。
+
+“*由于白色在战场上的不实用，在法国战役期间，一种‘芦苇绿色’的型号开始生产，最终在战争中期被牛仔布或‘HBT’野战制服取代，这种制服采用相同材料，但羊毛服务上衣有4个带盖口袋以及徽章和肩带。*”
+
+这也解释了他服装上缺乏任何徽章、肩带或其他细节的原因。Drillich旨在简单，用于防止损坏标准战斗制服，因此在战争中期之前不会有任何徽章或肩带。他的制服（早期裤子与法国战役时的上衣）的“混合”外观也相当常见，有大量证据表明士兵会使用这样的混搭。
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s6.png?raw=true" alt="s6" style="width:512px;"/>
+
+*混搭的早期与后期 Drillich 穿搭*
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/post-POTL-resources/resources/s7.png?raw=true" alt="s7" style="width:512px;"/>
+
+*坐在筏旁的士兵穿戴同样的服装以及刺刀，这是他的标准步兵装备之一*
+
 ### 位置
 
 ### 调查团队
 
 ## 结尾
 
-写到中途就开始变得没耐心，把翻译工作交给 AI 了。我们真是活在一个了不起的时代😂
+写到中途就开始变得没耐心，把部分翻译工作交给 AI 了。我们真是活在一个了不起的时代😂
 
 ## 引用
 
