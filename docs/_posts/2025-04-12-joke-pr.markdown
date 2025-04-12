@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "【PR】This is a joke"
-date:   2025-04-12 21:00:000 +0800
+date:   2025-04-12 17:40:000 +0800
 categories: github PR
 lang: zh-CN
 ---
@@ -10,7 +10,7 @@ lang: zh-CN
 
 <img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/resources/01.png?raw=true" alt="dify-joke" style="width:512px;"/>
 
-大量违反开源协议的内容，甚至还把人家的图标改了...无奈之下 Dify 只能发了封律师函表达抗议。顺便提一句，丽珠医药在国内最出名的产品大概是🤣
+大量违反开源协议的内容，甚至还把人家的图标改了...无奈之下 Dify 只能发了封律师函表达抗议。顺便提一句，丽珠医药在国内最出名的产品大概是
 
 <img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/resources/02.jpg?raw=true" alt="taitai" style="width:512px;"/>
 
@@ -21,9 +21,11 @@ lang: zh-CN
 
 <img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/resources/03.jpg?raw=true" alt="private-keys" style="width:512px;"/>
 
-参与开源项目的门槛很低，作为项目的 owner，大家通常倾向于鼓励社区向自己的项目作出贡献，哪怕提交的代码不算完美。这种自由也给项目的参与者和使用者带来了一些安全隐患，给自己或他人带来损失。下面给大家展示一些例子
+这样的行为显然是在给自己制造安全隐患。
 
-{% include note.html content="下面的都是反面教材，<span style="color:red"><b>绝对不要学</b></span>！！！如果你闯祸也别把我供出来！！！
+作为项目的 owner，大家通常倾向于鼓励社区向自己的项目作出贡献，哪怕提交的代码不算完美。这种自由也给项目的参与者和使用者带来了一些安全隐患，给自己或他人带来损失。下面给大家展示一些例子
+
+{% include note.html content="下面的都是反面教材，<span style="color:red"><b>绝对不要学</b></span>！！！如果你闯祸了，别把我供出来！！！
 " %}
 
 ## 你的环境应该是一次性的吧
