@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "【Meme】天下苦 Rust 久矣"
-date:   2025-04-19 21:30:000 +0800
+date:   2025-04-19 17:15:000 +0800
 categories: Github Meme
 lang: zh-CN
 ---
@@ -24,7 +24,7 @@ lang: zh-CN
 
 https://github.com/ansuz/RIIR
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/01.jpg?raw=true" alt="riir-github" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/01.jpg?raw=true" alt="riir-github" style="width:1024px;"/>
 
 似乎并不是每个人都很乐意将项目 RIIR 一下。列出一些有趣的例子，他们
 - 每个都有过人之处. 
@@ -34,19 +34,19 @@ https://github.com/ansuz/RIIR
 
 ### 支持
 
-为什么你的 window 不 RIIR 呢？
+首先看一些愿意使用 Rust 重构项目的，这些项目对安全性的要求更高，比如 windows 系统
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/04.jpg?raw=true" alt="win-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/04.jpg?raw=true" alt="win-rust" style="width:1024px;"/>
 
-考虑到 window 面临的更大的安全性挑战，也许这么做是合理的，不过微软也表示完全用 Rust 重写短期内不是很现实。
+考虑到 window 面临的更大的安全性挑战，这么做是合理的，不过微软也表示完全用 Rust 重写短期内不是很现实。
 
 当然也有人在推进 Rust linux/Unix，比如 [Redox](https://www.redox-os.org/) 系统
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/05.png?raw=true" alt="redox-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/05.png?raw=true" alt="redox-rust" />
 
 以及 [Rust for linux](https://rust-for-linux.com/) 等等
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/06.jpg?raw=true" alt="linux-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/06.jpg?raw=true" alt="linux-rust"/>
 
 操作系统层面的 RIIR 接受度似乎比较高，毕竟关乎安全性，算是比较合拍的请求了
 
@@ -56,7 +56,7 @@ https://github.com/ansuz/RIIR
 
 反追踪用的 Tor project 也有 Rust 版本
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/14.jpg?raw=true" alt="tor-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/14.jpg?raw=true" alt="tor-rust"/>
 
 ### 反对
 
@@ -64,25 +64,25 @@ https://github.com/ansuz/RIIR
 
 游戏引擎 Godot 收到了 RIIR 请求，不过反响比较微妙😅
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/07.jpg?raw=true" alt="godot-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/07.jpg?raw=true" alt="godot-rust" />
 
 ElasticSearch 也收到了，他们应该也不太喜欢...
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/08.jpg?raw=true" alt="08-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/08.jpg?raw=true" alt="08-rust" />
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/09.jpg?raw=true" alt="09-rust" style="width:256px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/09.jpg?raw=true" alt="09-rust" />
 
 F-Droid 也不太希望重构 75k 的代码量，话说你们的话术怎么一样啊
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/10.jpg?raw=true" alt="fdroid-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/10.jpg?raw=true" alt="fdroid-rust" />
 
 由于 xz 中发现了后门，所以有人建议用 Rust 来避免后门...
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/12.png?raw=true" alt="xz-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/12.png?raw=true" alt="xz-rust" />
 
 还有一些小众的项目也逃不掉，Rust-Roll! （还挺自豪的...）
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/11.jpg?raw=true" alt="rickroll-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/11.jpg?raw=true" alt="rickroll-rust" />
 
 ### 其他
 
@@ -90,17 +90,17 @@ F-Droid 也不太希望重构 75k 的代码量，话说你们的话术怎么一�
 
 Rust启动！
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/02.jpg?raw=true" alt="oo" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/02.jpg?raw=true" alt="oo" />
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/03.jpg?raw=true" alt="oo-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/03.jpg?raw=true" alt="oo-rust" />
 
 穿越时空的杰弗逊似乎也有些想法
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/15.png?raw=true" alt="us-cons-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/15.png?raw=true" alt="us-cons-rust" />
 
 就算是 RIIR 项目本身，也[逃不掉](https://github.com/ansuz/RIIR/pull/55)
 
-<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/16.png?raw=true" alt="riir-rust" style="width:512px;"/>
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/16.jpg?raw=true" alt="riir-rust" />
 
 ## 结尾
 
