@@ -1,0 +1,115 @@
+---
+layout: post
+title:  "【Meme】天下苦 Rust 久矣"
+date:   2025-04-19 21:30:000 +0800
+categories: Github Meme
+lang: zh-CN
+---
+
+就像每个刚学会编成的同学一样，我也曾冒出过“来写个编译器吧”的念头。于是我盯上了[这个](https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/)，详细的描述，漂亮的[源码](https://github.com/mukul-rathi/bolt)，一看就是教程中的极品！一切都是那么完美...
+
+除了它使用 <span style="color:red">OCaml</span> 写的
+
+从各种意义上说 OCaml 都是一门很特别的语言，简洁的语法，强大的 match 功能，还有函数式编程，特别适合用来开发编译器。但是它的生态实在说不上完备，让我冒出了“学这个不值”的想法。
+
+此时的我仿佛听见了恶魔的低语：“用 <span style="color:red">Rust</span> 重写一个吧”
+
+于是我一边翻着 Rust 的文档一边着手开发 Bolt 语言的 Rust 编译器。但是我显然高估了写编译器这件事的趣味性，在完成 AST 解析和与之配套的大量单元测试后，我开始有些厌倦了，再加上工作也变得更加繁忙，最终我将这个项目搁置，成为又一个静静躺在 github 的 private 项目。
+
+事实上在当时我并不会 Rust（事实上现在也不算掌握），但是在各个编程社区都有狂热的 Rust 用户在向所有人推荐这门以安全性著称的语言，在我的内心种下了一颗小小的种子。这在当时似乎是一种风向，以至于成为一个 meme：“RIIR”（Rewrite It In Rust）
+
+## RIIR
+
+有人整理[收集](https://transitiontech.ca/random/RIIR)了大量的劝人使用 Rust 改写功能的请求，发布了一个项目
+
+https://github.com/ansuz/RIIR
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/01.jpg?raw=true" alt="riir-github" style="width:512px;"/>
+
+似乎并不是每个人都很乐意将项目 RIIR 一下。列出一些有趣的例子，他们
+- 每个都有过人之处. 
+- 每个都有他们独门绝招.
+- 斗志和耐性更是技惊四座.
+- 秘密武器更给你意外的惊喜口牙
+
+### 支持
+
+为什么你的 window 不 RIIR 呢？
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/04.jpg?raw=true" alt="win-rust" style="width:512px;"/>
+
+考虑到 window 面临的更大的安全性挑战，也许这么做是合理的，不过微软也表示完全用 Rust 重写短期内不是很现实。
+
+当然也有人在推进 Rust linux/Unix，比如 [Redox](https://www.redox-os.org/) 系统
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/05.png?raw=true" alt="redox-rust" style="width:512px;"/>
+
+以及 [Rust for linux](https://rust-for-linux.com/) 等等
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/06.jpg?raw=true" alt="linux-rust" style="width:512px;"/>
+
+操作系统层面的 RIIR 接受度似乎比较高，毕竟关乎安全性，算是比较合拍的请求了
+
+操作系统以外，也有人着手 Chromium Rust
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/13.jpg?raw=true" alt="chrome-rust" style="width:512px;"/>
+
+反追踪用的 Tor project 也有 Rust 版本
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/14.jpg?raw=true" alt="tor-rust" style="width:512px;"/>
+
+### 反对
+
+相比上面的项目，下面的这些例子则不太受待见了
+
+游戏引擎 Godot 收到了 RIIR 请求，不过反响比较微妙😅
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/07.jpg?raw=true" alt="godot-rust" style="width:512px;"/>
+
+ElasticSearch 也收到了，他们应该也不太喜欢...
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/08.jpg?raw=true" alt="08-rust" style="width:512px;"/>
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/09.jpg?raw=true" alt="09-rust" style="width:256px;"/>
+
+F-Droid 也不太希望重构 75k 的代码量，话说你们的话术怎么一样啊
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/10.jpg?raw=true" alt="fdroid-rust" style="width:512px;"/>
+
+由于 xz 中发现了后门，所以有人建议用 Rust 来避免后门...
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/12.png?raw=true" alt="xz-rust" style="width:512px;"/>
+
+还有一些小众的项目也逃不掉，Rust-Roll! （还挺自豪的...）
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/11.jpg?raw=true" alt="rickroll-rust" style="width:512px;"/>
+
+### 其他
+
+还有一些纯粹是玩梗的，比如
+
+Rust启动！
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/02.jpg?raw=true" alt="oo" style="width:512px;"/>
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/03.jpg?raw=true" alt="oo-rust" style="width:512px;"/>
+
+穿越时空的杰弗逊似乎也有些想法
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/15.png?raw=true" alt="us-cons-rust" style="width:512px;"/>
+
+就算是 RIIR 项目本身，也[逃不掉](https://github.com/ansuz/RIIR/pull/55)
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/riir-resources/resources/16.png?raw=true" alt="riir-rust" style="width:512px;"/>
+
+## 结尾
+
+好像从半年前就抽不太出时间写 post 了，下一篇也不知道会是什么时候。
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
