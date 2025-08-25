@@ -46,6 +46,10 @@ _通过github发布expoit code_
 2. 发起一个 issue，在 issue 中诓骗访问恶意代码
 3. 让 AI 去解决 issue 中的问题，导致 agent 执行恶意代码
 
+或者 reddit 中
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why is no one talking about this? <br><br>This is why I don&#39;t use an AI browser<br><br>You can literally get prompt injected and your bank account drained by doomscrolling on reddit: <a href="https://t.co/keiz7bL2XX">https://t.co/keiz7bL2XX</a> <a href="https://t.co/aGN8xrdZtD">pic.twitter.com/aGN8xrdZtD</a></p>&mdash; zack (in SF) (@zack_overflow) <a href="https://twitter.com/zack_overflow/status/1959308058200551721?ref_src=twsrc%5Etfw">August 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 {% include note.html content="事实上，恶意代码未必肉眼可见，由于 AI 会解析 HTML 并读取内容，所以攻击者可以把恶意代码隐藏在不可见的html元素中以向代码维护者隐藏内容。
 " %}
 
@@ -119,16 +123,16 @@ _`delete file` 的拼图_
 
 ## Reference
 
-1. https://futurism.com/the-byte/car-dealership-ai
-2. https://en.wikipedia.org/wiki/Prompt_injection
-3. https://futurism.com/the-byte/hack-tricks-chatgpt-spitting-out-private-email
-4. https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/
-5. https://garymarcus.substack.com/p/llms-coding-agents-security-nightmare
-6. https://en.wikipedia.org/wiki/Slopsquatting
-7. https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/
-8. https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem
-9. https://www.usenix.org/system/files/sec20fall_quiring_prepub.pdf
-10. https://developer.nvidia.com/blog/how-hackers-exploit-ais-problem-solving-instincts/
+1. [Car Dealership Disturbed When Its AI Is Caught Offering Chevys for $1 Each](https://futurism.com/the-byte/car-dealership-ai)
+2. [Prompt injection](https://en.wikipedia.org/wiki/Prompt_injection)
+3. [Hack Tricks ChatGPT Into Spitting Out Private Email Addresses, Phone Numbers](https://futurism.com/the-byte/hack-tricks-chatgpt-spitting-out-private-email)
+4. [An AI-powered coding tool wiped out a software company’s database, then apologized for a ‘catastrophic failure on my part’](https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/)
+5. [LLMs + Coding Agents = Security Nightmare](https://garymarcus.substack.com/p/llms-coding-agents-security-nightmare)
+6. [Slopsquatting](https://en.wikipedia.org/wiki/Slopsquatting)
+7. [Weaponizing image scaling against production AI systems](https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/)
+8. [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)
+9. [Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning](https://www.usenix.org/system/files/sec20fall_quiring_prepub.pdf)
+10. [How Hackers Exploit AI’s Problem-Solving Instincts](https://developer.nvidia.com/blog/how-hackers-exploit-ais-problem-solving-instincts/)
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
