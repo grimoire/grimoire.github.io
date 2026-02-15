@@ -123,6 +123,14 @@ lang: zh-CN
 
 如果大家对自己的大脑足够有自信，可以用 [这个软件](http://www.parmen.com/) 玩玩看。
 
+#### update-2026-02-15
+
+国际象棋的创新似乎也并不完全是洋人的娱乐，在上海的公安博物馆中收藏着这样一个作品：
+
+<img src="https://github.com/grimoire/grimoire.github.io/blob/ai-hit-man-resources/resources/tri.jpg?raw=true" alt="ai review" style="width:512px;"/>
+
+也算是一种龙场悟道了吧。
+
 ## 结语
 
 今天分享的就这些了，也不知道合不合各位观众老爷的胃口。这里先给大家拜个早年吧，祝大家新年快乐，龙年吉祥～
